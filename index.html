@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+    <title>Sierpinski Triangle</title>
+  </head>
+  <body>
+    <p class="speed">Speed</p>
+    <p class="size">Size</p>
+    <p id="points">Points: 0</p>
+    <p id="framerate">Framerate: 60fps</p>
+    <button id="start">Start</button>
+    <button id="clear-points">Clear</button>
+    <div class="description">
+      <h3>
+        This is an animated visualization of the Sierpinski Triangle emerging
+        from a simple rule by repeating it after drawing one random point inside
+        a triangle.
+      </h3>
+      <h4>
+        The rule is to draw a new point halfway in between the last point drawn
+        and one of the original triangle's points that we randomly choose.
+      </h4>
+    </div>
+    <main></main>
+
+    <a
+      href="https://github.com/Nika-Somkhishvili/sierpinski-triangle"
+      target="_blank"
+      >Github</a
+    >
+
+    <script src="main.js"></script>
+  </body>
+</html>
